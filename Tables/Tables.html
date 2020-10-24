@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #customers td,
+        #customers th {
+            border: 1px solid rgb(59, 59, 59);
+            padding: 8px;
+        }
+        
+        #customers tr:nth-child(even) {
+            background-color: #5ffafa;
+        }
+        
+        #customers tr:hover {
+            background-color: rgb(228, 224, 224);
+        }
+        
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #dabc37;
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <caption>monthly savings</caption>
+        <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>age</th>
+            <th colspan="2">telephone</th>
+        </tr>
+        <tr>
+            <td>samrat</td>
+            <td>mca</td>
+            <td>23</td>
+            <td>123456789</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>samrat</td>
+            <td>mca</td>
+            <td>23</td>
+            <td>123456789</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>samrat</td>
+            <td>mca</td>
+            <td>23</td>
+            <td>123456789</td>
+            <td>123456789</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
